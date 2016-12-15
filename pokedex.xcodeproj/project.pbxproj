@@ -12,6 +12,7 @@
 		FE65C1481E00DC27009D879A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE65C1461E00DC27009D879A /* Main.storyboard */; };
 		FE65C14A1E00DC27009D879A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE65C1491E00DC27009D879A /* Assets.xcassets */; };
 		FE65C14D1E00DC27009D879A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE65C14B1E00DC27009D879A /* LaunchScreen.storyboard */; };
+		FE8FFD701E022D3300066BDF /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = FE8FFD6F1E022D3300066BDF /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FE65C1491E00DC27009D879A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE65C14C1E00DC27009D879A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE65C14E1E00DC27009D879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8FFD6F1E022D3300066BDF /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				FE65C1441E00DC26009D879A /* ViewController.swift */,
 				FE65C1461E00DC27009D879A /* Main.storyboard */,
 				FE65C1491E00DC27009D879A /* Assets.xcassets */,
+				FE8FFD6F1E022D3300066BDF /* pokemon.csv */,
 				FE65C14B1E00DC27009D879A /* LaunchScreen.storyboard */,
 				FE65C14E1E00DC27009D879A /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				FE65C14D1E00DC27009D879A /* LaunchScreen.storyboard in Resources */,
 				FE65C14A1E00DC27009D879A /* Assets.xcassets in Resources */,
+				FE8FFD701E022D3300066BDF /* pokemon.csv in Resources */,
 				FE65C1481E00DC27009D879A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				FE65C1531E00DC27009D879A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
